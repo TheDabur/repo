@@ -25,4 +25,17 @@
 	<news></news>
 	</extension>
 </addon>
+
+<addon id="repository.thedabur" name="The Dabur Add-on repository" version="1.0.0" provider-name="TheDabur">
+	<extension point="xbmc.addon.repository" name="The Dabur Add-on repository">
+		<info compressed="false">http://raw.github.com/TheDabur/repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/TheDabur/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/TheDabur/repo/master/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from The Dabur</summary>
+		<description lang="en">Download and install add-ons from The Dabur repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
