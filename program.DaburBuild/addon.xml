@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="program.DaburBuild" name="The Dabur Build" version="1.0.0" provider-name="The Dabur">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -25,4 +24,3 @@
 	<news></news>
 	</extension>
 </addon>
-</addons>

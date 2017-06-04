@@ -1,0 +1,48 @@
+# Kodi Media Center language file
+# Addon Name: Dabur Build
+# Addon id: program.DaburBuild
+# Addon Provider: TheDabur
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: thedabur@gmail.com\n"
+"POT-Creation-Date: 2017-04-20 13:00+02\n"
+"PO-Revision-Date: 2017-04-20 13:00+02\n"
+"Last-Translator: herzaso\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Creating backup for setting files"
+msgstr "Creating backup for setting files"
+
+msgctxt "#30005"
+msgid "Getting repository {0} out of {1}"
+msgstr "Getting repository {0} out of {1}"
+
+msgctxt "#30006"
+msgid "Downloading package {0} out of {1}"
+msgstr "Downloading package {0} out of {1}"
+
+msgctxt "#30007"
+msgid "Installing package {0} out of {1}"
+msgstr "Installing package {0} out of {1}"
+
+msgctxt "#30010"
+msgid "Finalizing, please wait..."
+msgstr "Finalizing, please wait..."
+
+msgctxt "#30011"
+msgid "Installation complete!"
+msgstr "Installation complete!"
+
+msgctxt "#30020"
+msgid "Error. Server is unavailable!"
+msgstr "Error. Server is unavailable!"
+
+msgctxt "#30021"
+msgid "Oops, it's seems like something is wrong!"
+msgstr "Oops, it's seems like something is wrong!"
