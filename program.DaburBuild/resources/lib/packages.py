@@ -8,13 +8,15 @@
 import sys
 from json import loads
 from urllib2 import urlopen
+from random import randint
 
 sysaddon = sys.argv[0]
 
 
 class packages:
     def __init__(self):
-        self.pack_url = 'https://raw.githubusercontent.com/TheDabur/DBuild/master/packages.json'
+        self.pack_url = 'https://raw.githubusercontent.com/TheDabur/packages/master/packages.json?tkn={0}'.format(
+            randint(0, 9223372036854775807))
         json_data = urlopen(self.pack_url)
         self.data = loads(json_data.read())
 

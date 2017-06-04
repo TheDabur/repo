@@ -103,13 +103,13 @@ class download:
             # skin = "skin.eminence.2.mod"
             skin = "skin.estuary"
 
-        rpc.run("Settings.SetSettingValue", {"setting": "locale.language", "value": "english"})
+        rpc.run("Settings.SetSettingValue", {"setting": "locale.language", "value": "English"})
         rpc.run("Settings.SetSettingValue", {"setting": "lookandfeel.font", "value": "Arial"})
         rpc.run("Settings.SetSettingValue", {"setting": "lookandfeel.skin", "value": skin})
         control.execute('Action(Select, 10100)')  # automatically select YES to skin change
 
         # update settings available in package
-        for k, v in settings:
+        for k, v in settings.iteritems():
             rpc.run("Settings.SetSettingValue", {"setting": k, "value": v})
 
         sleep(2)
