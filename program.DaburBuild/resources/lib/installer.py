@@ -168,7 +168,7 @@ class Installer:
         else:
             self.log('error installing {0} ({1})'.format(id, url or "doesn't exist on repos"), xbmc.LOGERROR)
 
-    def log(self, str, level=xbmc.LOGDEBUG, name='TheDabur'):
+    def log(self, str, level=xbmc.LOGDEBUG, name='Installer'):
         """
             xbmc.LOGDEBUG   = 0
             xbmc.LOGINFO	= 1

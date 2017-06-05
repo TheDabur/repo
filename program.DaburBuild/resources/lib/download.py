@@ -110,7 +110,8 @@ class download:
 
         # update settings available in package
         for k, v in settings.iteritems():
-            rpc.run("Settings.SetSettingValue", {"setting": k, "value": v})
+            if k != "lookandfeel.skin":  # We already set this above if exists
+                rpc.run("Settings.SetSettingValue", {"setting": k, "value": v})
 
         sleep(2)
         control.execute('ReloadSkin')
