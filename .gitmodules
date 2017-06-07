@@ -1,0 +1,3 @@
+[submodule "program.DaburBuild"]
+	path = program.DaburBuild
+	url = https://github.com/TheDabur/program.DaburBuild.git
