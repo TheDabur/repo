@@ -46,3 +46,27 @@ msgstr "שגיאה. השרת אינו זמין!"
 msgctxt "#30021"
 msgid "Oops, it's seems like something is wrong!"
 msgstr "אופס! נראה שיש לי תקלה"
+
+msgctxt "#30030"
+msgid "Are you sure?"
+msgstr "האם את/ה בטוח/ה?"
+
+msgctxt "#30031"
+msgid "Yes"
+msgstr "כן"
+
+msgctxt "#30032"
+msgid "No"
+msgstr "לא"
+
+msgctxt "#30040"
+msgid "Version number {0} is available.[CR]Would you like to update?"
+msgstr "עדכון מספר {0} זמין[CR]האם תרצה לעדכן?"
+
+msgctxt "#30041"
+msgid "There are no updates in the server[CR]Version number {0}[CR]Your device has the latest version"
+msgstr "מכשירך מריץ את הגירסה העדכנית ביותר[CR]גרסה מספר {0}[CR]לא קיימים עדכונים בשרת"
+
+msgctxt "#30042"
+msgid "Remind me later[CR]Please note if you choose No you will not be prompt again until next update"
+msgstr "הזכר לי מאוחר יותר[CR]הערה: במידה ותלחץ "לא" העדכון לא יכנס לתוקף עד העדכון הבא."

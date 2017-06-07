@@ -46,3 +46,27 @@ msgstr "Error. Server is unavailable!"
 msgctxt "#30021"
 msgid "Oops, it's seems like something is wrong!"
 msgstr "Oops, it's seems like something is wrong!"
+
+msgctxt "#30030"
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+msgctxt "#30031"
+msgid "Yes"
+msgstr "Yes"
+
+msgctxt "#30032"
+msgid "No"
+msgstr "No"
+
+msgctxt "#30040"
+msgid "Version number {0} is available.[CR]Would you like to update?"
+msgstr "Version number {0} is available.[CR]Would you like to update?"
+
+msgctxt "#30041"
+msgid "There are no updates in the server[CR]Version number {0}[CR]Your device has the latest version"
+msgstr "There are no updates in the server[CR]Version number {0}[CR]Your device has the latest version"
+
+msgctxt "#30042"
+msgid "Remind me later[CR]Please note if you choose No you will not be prompt again until next update"
+msgstr "Remind me later[CR]Please note if you choose No you will not be prompt again until next update"

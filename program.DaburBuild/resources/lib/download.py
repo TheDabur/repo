@@ -6,7 +6,7 @@
 """
 
 import sys
-from time import sleep
+from time import sleep, time
 import config
 import control
 import installer
@@ -80,6 +80,7 @@ class download:
         conf_json['version'] = package_latest_version
         conf_json['package'] = package['id']
         conf_json['addons'] = package['addons']
+        conf_json['updated_at'] = int(time())
         conf.save()
 
         dp.update(0, control.lang(30010))
