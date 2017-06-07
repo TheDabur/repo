@@ -8,6 +8,7 @@ current_version = conf.getVersion()
 updated_at = conf.getUpdatedAt()
 update_next_check = conf.getUpdateNextCheck()
 
+# protect flood Github and make sure we do the check only when update_next_check is less then now
 if update_next_check > int(time()):
     sys.exit(1)
 
@@ -17,12 +18,16 @@ package_latest_version = packages_instance.getVersion()
 conf_json['update_next_check'] = int(time()) + config.CONFIG_NEXT_UPDATE_INTERVAL
 conf.save()
 
-if str(current_version) == str(package_latest_version):
+# if the current version is the same as the latest we don't need to prompt update
+if current_version == package_latest_version:
     sys.exit(1)
 
+# if skip_version is exists and its the same as the latest package version
+# its mean he user chose to skip this update
 if "skip_version" in conf_json and conf_json['skip_version'] == package_latest_version:
     sys.exit(1)
 
+# Lets wait a bit before prompt
 sleep(20)
 if control.yesnoDialog(control.lang(30040).format(package_latest_version), "", "", control.addonInfo('name'),
                        control.lang(30032), control.lang(30031)):
