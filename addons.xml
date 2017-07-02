@@ -39,4 +39,43 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="skin.titan.heb" version="3.7.60" name="Titan Heb" provider-name="marcelveldt,mgonzales">
+	<requires>
+		<import version="5.12.0" addon="xbmc.gui"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="script.skin.helper.widgets" version="1.0.0"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
+        <import addon="resource.uisounds.titan.modern" version="1.0.0"/>
+        <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0"/>
+        <import addon="resource.images.skinicons.wide" version="1.0.0"/>
+        <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_US">MediaPortal's Titan skin ported to Kodi enriched with lot's of features.</summary>
+		<summary lang="he_IL">המעטפת Titan שבמקור נוצרה עבור MediaPortal, שודרגה ביכולות רבות ושילוב מלא של MediaBrowser.</summary>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<email></email>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>_screenshots/screenshot000.jpg</screenshot>
+            <screenshot>_screenshots/screenshot001.jpg</screenshot>
+            <screenshot>_screenshots/screenshot002.jpg</screenshot>
+            <screenshot>_screenshots/screenshot003.jpg</screenshot>
+            <screenshot>_screenshots/screenshot004.jpg</screenshot>
+            <screenshot>_screenshots/screenshot005.jpg</screenshot>
+            <screenshot>_screenshots/screenshot006.jpg</screenshot>
+            <screenshot>_screenshots/screenshot007.jpg</screenshot>
+            <screenshot>_screenshots/screenshot008.jpg</screenshot>
+            <screenshot>_screenshots/screenshot009.jpg</screenshot>
+        </assets>
+	</extension>
+</addon>
 </addons>

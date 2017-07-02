@@ -1,3 +1,6 @@
 [submodule "program.DaburBuild"]
 	path = program.DaburBuild
 	url = https://github.com/TheDabur/program.DaburBuild.git
+[submodule "skin.titan.heb"]
+	path = skin.titan.heb
+	url = https://github.com/TheDabur/skin.titan.heb.git
