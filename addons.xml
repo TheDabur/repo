@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="program.DaburBuild" name="The Dabur Build" version="1.0.0" provider-name="The Dabur">
+<addon id="program.DaburBuild" name="The Dabur Build" version="1.0.1" provider-name="The Dabur">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.requests" version="2.4.3" />
@@ -10,9 +10,9 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">The Dabur Build</summary>
-		<description lang="en"></description>
-		<description lang="he"></description>
+	<summary lang="en">The Dabur Build</summary>
+	<description lang="en"></description>
+	<description lang="he"></description>
 	<disclaimer lang="en"></disclaimer>
 	<disclaimer lang="he"></disclaimer>
 	<source>http://</source>
